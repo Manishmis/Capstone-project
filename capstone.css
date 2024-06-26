@@ -7,100 +7,100 @@ body {
 
 
 nav {
-    background-color: #f2f2f2; /* Light grey background */
-    padding: 10px 0; /* Padding around the nav */
-    text-align: center; /* Center the links */
+    background-color: #f2f2f2; 
+    padding: 10px 0; 
+    text-align: center; 
   }
   
   nav a {
-    color: #e93e3e; /* Blood red color for the text */
-    padding: 10px 20px; /* Padding around the text */
-    text-decoration: none; /* Remove underline from links */
-    font-weight: bold; /* Make the font bold */
-    margin: 0 10px; /* Margin between the links */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    color: #e93e3e; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    font-weight: bold;
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s; 
   }
   
   nav a:hover {
-    background-color: #e93e3e; /* Blood red background on hover */
-    color: #fff; /* White text on hover */
-    border-radius: 5px; /* Rounded corners on hover */
+    background-color: #e93e3e; 
+    color: #fff; 
+    border-radius: 5px; 
   }
 
   button {
-    background-color: #773ee9; /* Blood red background */
-    color: white; /* White text */
-    padding: 12px 24px; /* Top and bottom padding, left and right padding */
-    font-size: 16px; /* Font size */
-    border: none; /* No border */
-    border-radius: 25px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    background-color: #773ee9; 
+    color: white; 
+    padding: 12px 24px;
+    font-size: 16px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; 
   }
   
   button:hover {
-    background-color: #008080; /* Slightly darker red on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+    background-color: #008080; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
   }
 
   #become-donor h2 {
-    color: #d43707; /* Blood red color */
-    font-size: 28px; /* Larger font size */
-    text-transform: uppercase; /* Uppercase text */
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
-    margin-bottom: 10px; /* Space below the heading */
-    padding-bottom: 5px; /* Padding at the bottom */
-    border-bottom: 3px solid #1e0404; /* Red underline */
+    color: #d43707; 
+    font-size: 28px; 
+    text-transform: uppercase; 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 10px; 
+    padding-bottom: 5px; 
+    border-bottom: 3px solid #1e0404; 
   }
   
   header h1 {
-    color: #e93e3e; /* Blood red color for the title */
-    font-size: 36px; /* Larger font size for the title */
-    margin-bottom: 0.5em; /* Space below the title */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+    color: #e93e3e;
+    font-size: 36px; 
+    margin-bottom: 0.5em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
   }
 
   
   
   header p {
-    color: #333; /* Dark grey color for the subtitle */
-    font-size: 20px; /* Font size for the subtitle */
-    margin-top: 0; /* Remove space above the subtitle */
-    padding: 10px 0; /* Padding above and below the subtitle */
-    background-color: #f2f2f2; /* Light grey background for separation */
-    display: inline-block; /* Align background with text */
-    border-radius: 5px; /* Rounded corners for the background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the background */
+    color: #333;
+    font-size: 20px; 
+    margin-top: 0; 
+    padding: 10px 0; 
+    background-color: #f2f2f2; 
+    display: inline-block; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   }
 
   .steps-container {
-    display: flex; /* Use Flexbox to align items in a row */
-    justify-content: space-around; /* Distribute space evenly around the items */
-    margin: 20px 0; /* Vertical margin for separation from other elements */
+    display: flex; 
+    justify-content: space-around; 
+    margin: 20px 0; 
   }
   
   .step-box {
-    background-color: #f2f2f2; /* Light grey background for each box */
-    border: 1px solid #ddd; /* Border for the box */
-    border-radius: 5px; /* Rounded corners for the box */
-    padding: 20px; /* Padding inside the box */
-    width: 30%; /* Width of each box */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    text-align: center; /* Center the text inside the box */
+    background-color: #f2f2f2; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    padding: 20px; 
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
   }
   
   .step-box:not(:last-child) {
-    margin-right: 10px; /* Add margin to the right of each box except the last one */
+    margin-right: 10px; 
   }
 
-  h1 {color: #e93e3e; /* Blood red color for the heading */
-    font-size: 40px; /* Large font size for prominence */
-    text-align: center; /* Center the heading */
-    margin: 30px 0; /* Margin above and below for spacing */
-    text-transform: uppercase; /* Uppercase letters for a formal look */
-    letter-spacing: 2px; /* Space between letters for readability */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  h1 {color: #e93e3e;
+    font-size: 40px; 
+    text-align: center;
+    margin: 30px 0; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
   }
 
   @keyframes pulse {
@@ -116,18 +116,18 @@ nav {
   }
   
   .contribution-line {
-    display: inline-block; /* Allows the animation to fit the content */
-    margin: 20px 0; /* Vertical spacing */
-    padding: 10px; /* Padding around the text */
-    color: #e93e71; /* Blood green color for the text */
-    font-weight: bold; /* Bold font for emphasis */
-    font-size: 24px; /* Larger font size for visibility */
-    border-radius: 5px; /* Rounded corners */
-    background: linear-gradient(45deg, #fff, #f8f8f8); /* Subtle gradient background */
-    position: relative; /* Required for the pseudo-element */
-    overflow: hidden; /* Ensures the pseudo-element is clipped */
-    cursor: pointer; /* Indicates the text is interactive */
-    animation: pulse 2s infinite; /* Applies the pulse animation */
+    display: inline-block;
+    margin: 20px 0; 
+    padding: 10px; 
+    color: #e93e71; 
+    font-weight: bold; 
+    font-size: 24px; 
+    border-radius: 5px; 
+    background: linear-gradient(45deg, #fff, #f8f8f8); 
+    position: relative; 
+    overflow: hidden; 
+    cursor: pointer; 
+    animation: pulse 2s infinite; 
   }
   
   .contribution-line::after {
@@ -149,15 +149,27 @@ nav {
   }
 
   h1 {
-    /* Your existing styles for h1 */
+    
   }
   
   .contribution-line {
-    /* Your existing styles for .contribution-line */
-    margin-bottom: 30px; /* Add more space below the line */
+    margin-bottom: 30px;
   }
   
   .container {
-    /* Your existing styles for .container */
-    margin-top: 30px; /* Add space above the container if needed */
+    margin-top: 30px; 
   }
+
+  
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  
+  
+.modal {
+  
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}

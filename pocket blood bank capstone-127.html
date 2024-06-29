@@ -4,11 +4,107 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blood Donation Website</title>
-  <link rel="stylesheet" type="text/css" href="capstone.css" > 
+  <link rel="stylesheet" type="text/css" href="capstone.css"13 > 
 </head>
 
 <body> <script type="text/javascript" src="capstone.js"></script>
 </body>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .modal {
+      display: none; 
+      position: fixed; 
+      z-index: 1; 
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      overflow: auto; 
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0,0.4);
+      animation-name: fadeIn;
+      animation-duration: 1s;
+    }
+
+    .modal-content {
+      background-color: #94eed0;
+      margin: 18% auto; 
+      padding: 20px;
+      border: 1px solid #888;
+      width: 40%; 
+    }
+
+    .close {
+      color: #960a1b;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: rgb(42, 131, 101);
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+
+<button id="login-button" onclick="openModal()">Login</button>
+<button id="signup-button" onclick="openModal()">Signup</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">×</span>
+    <h2>Login/Signup</h2>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br>
+    <button type="button" onclick="submitForm()">Submit</button>
+  </div>
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+function openModal() {
+  modal.style.display = "block";
+}
+
+function submitForm() {
+  // Handle form submission here
+  alert("Form submitted");
+}
+</script>
+
+</body>
+</html>
+
+
+
+
 
 <body>
   <header>
@@ -128,9 +224,6 @@
   <h1>Help save lives by donating blood.</h1>
   <p class="contribution-line">Your contribution can make a difference.</p> 
 
-
-  
-
   <div class="container">
     <h2>As a Donor</h2>
     <p>Donating blood is a safe and easy way to help others. Your blood donation can help save up to three lives.</p>
@@ -147,98 +240,13 @@
 
 
 
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    
-    .modal {
-      display: none; 
-      position: fixed; 
-      z-index: 1; 
-      left: 0;
-      top: 0;
-      width: 100%; 
-      height: 100%; 
-      overflow: auto; 
-      background-color: rgb(0,0,0);
-      background-color: rgba(0,0,0,0.4);
-      animation-name: fadeIn;
-      animation-duration: 1s;
-    }
-
-    
-    .modal-content {
-      background-color: #94eed0;
-      margin: 18% auto; 
-      padding: 20px;
-      border: 1px solid #888;
-      width: 40%; 
-    }
-
-    
-    .close {
-      color: #960a1b;
-      float: right;
-      font-size: 28px;
-      font-weight: bold;
-    }
-
-    .close:hover,
-    .close:focus {
-      color: rgb(42, 131, 101);
-      text-decoration: none;
-      cursor: pointer;
-    }
-
-    @keyframes fadeIn {
-      0% {opacity: 0;}
-      100% {opacity: 1;}
-    }
-  </style>
-</head>
-<body>
 
 
-<div id="myModal" class="modal">
 
   
-  <div class="modal-content">
-    <span class="close">×</span>
-    <h2>Login/Signup</h2>
-    <button>Donor</button>
-    <button>Seeker</button>
-  </div>
 
-</div>
-
-<script>
-
-var modal = document.getElementById("myModal");
-
-
-var span = document.getElementsByClassName("close")[0];
-
-
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
 
  
-window.onload = function() {
-  modal.style.display = "block";
-}
-</script>
-
-</body>
-</html>
-
+  
 
 

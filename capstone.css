@@ -173,3 +173,23 @@ nav {
   animation-name: fadeIn;
   animation-duration: 1s;
 }
+
+
+
+
+#login-button, #signup-button {
+  background-color: #773ee9;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+#login-button:hover, #signup-button:hover {
+  background-color: #008080;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
